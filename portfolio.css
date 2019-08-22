@@ -1,0 +1,54 @@
+header {
+position: absolute;
+width: 588px;
+height: 76px;
+left: 391px;
+top: 43px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 54px;
+line-height: 84px;
+text-align: center;
+
+border: 1px solid #000000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.About {
+position: absolute;
+width: 346px;
+height: 57px;
+left: 77px;
+top: 273px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height */
+text-align: center;
+
+border: 1px solid #000000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Good morning, my name is Travis Lathan Mclaurin. I am 20 years old, and was born and raised in Augusta, Georgia. I graduated from Lakeside High School in 2017 where I was an honor student and standout athlete. Once I completed high school, I enrolled at Augusta University to pursue a degree in Computer Science which I am currently working toward. I also am enrolled at code boot camp through the Clubhou.se at the Georgia Cyber Center. I decided to enroll in these programs to enable myself to learn sufficient material to help me in the work force upon graduation. I hope to obtain a job as a Security Analyst, and one day be promoted to a Security Administrator. */
+p {
+position: absolute;
+width: 407px;
+height: 616px;
+left: 59px;
+top: 358px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #000000;
+}
