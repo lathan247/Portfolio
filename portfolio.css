@@ -1,8 +1,8 @@
 header {
 position: relative;
-width: 588px;
-height: 76px;
-left: 625px;
+width: 1500px;
+height: 100px;
+left: 215px;
 top: 3px;
 
 font-family: Roboto;
@@ -12,8 +12,9 @@ font-size: 50px;
 line-height: 84px;
 text-align: center;
 color: #45DE70;
-background-image: url("abstact.png");
-z-index: -1;
+
+background-image: url("abstract.png");
+z-index: 1;
 
 
 
@@ -26,7 +27,7 @@ width: 346px;
 height: 57px;
 left: 236px;
 top: 233px;
-
+color: #45DE70;
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -34,6 +35,7 @@ font-size: 48px;
 line-height: 56px;
 /* identical to box height */
 text-align: center;
+line-height: 200%;
 
 
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -66,6 +68,7 @@ top: 309px;
 text-align: center;
 /* background: #80BBF1; */
 border-radius: 500px;
+color: #45DE70;
 font-size: 48px;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -76,21 +79,22 @@ width: 797px;
 height: 56px;
 left: 525px;
 top: 1303px;
-color: #80BBF1;
+color: #45DE70;
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 48px;
 line-height: 56px;
 text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 body {
     position: relative;
 width: 1322px;
 height: 1498px;
-
-background: #E1EAAE;
+/* background-image: url("abstract.png"); */
+background-color: #E1EAAE;
 }
 
 .background {
@@ -105,7 +109,7 @@ left: 1362px;
 top: 715px;
 font-size: 20px;
 font-weight: bold;
-background: #45DE70;
+background: #80BBF1;
 border-radius: 50px;
 font-family: Roboto;
 }
@@ -117,7 +121,7 @@ width: 256px;
 height: 32px;
 left: 793px;
 top: 883px;
-
+color: #45DE70;
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -175,4 +179,9 @@ li {
 
 .list {
     text-align: center;
+    color: #000000;
+}
+
+.lists {
+    color: black;
 }
