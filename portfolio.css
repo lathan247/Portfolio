@@ -1,18 +1,22 @@
 header {
-position: absolute;
+position: relative;
 width: 588px;
 height: 76px;
-left: 391px;
-top: 43px;
+left: 625px;
+top: 3px;
 
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 54px;
+font-size: 50px;
 line-height: 84px;
 text-align: center;
+color: #45DE70;
+background-image: url("abstact.png");
+z-index: -1;
 
-border: 1px solid #000000;
+
+
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -20,8 +24,8 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0
 position: absolute;
 width: 346px;
 height: 57px;
-left: 77px;
-top: 273px;
+left: 236px;
+top: 233px;
 
 font-family: Roboto;
 font-style: normal;
@@ -31,7 +35,7 @@ line-height: 56px;
 /* identical to box height */
 text-align: center;
 
-border: 1px solid #000000;
+
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -40,15 +44,135 @@ p {
 position: absolute;
 width: 407px;
 height: 616px;
-left: 59px;
+left: 200px;
 top: 358px;
 
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 18px;
+font-size: 24px;
 line-height: 21px;
 text-align: center;
 
 color: #000000;
+}
+
+.Resume {
+    position: absolute;
+width: 272px;
+height: 183px;
+left: 1296px;
+top: 309px;
+text-align: center;
+/* background: #80BBF1; */
+border-radius: 500px;
+font-size: 48px;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Important{
+    position: absolute;
+width: 797px;
+height: 56px;
+left: 525px;
+top: 1303px;
+color: #80BBF1;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+}
+
+body {
+    position: relative;
+width: 1322px;
+height: 1498px;
+
+background: #E1EAAE;
+}
+
+.background {
+    background: #E1EAAE;
+}
+
+button {
+    position: absolute;
+width: 156px;
+height: 92px;
+left: 1362px;
+top: 715px;
+font-size: 20px;
+font-weight: bold;
+background: #45DE70;
+border-radius: 50px;
+font-family: Roboto;
+}
+
+.Projects {
+    
+position: absolute;
+width: 256px;
+height: 32px;
+left: 793px;
+top: 883px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Flight {
+    position: absolute;
+width: 200px;
+height: 55px;
+left: 285px;
+top: 1032px;
+text-align: center;
+font-weight: bolder;
+background: #80BBF1;
+border-radius: 50px;
+}
+
+.Random {
+    position: absolute;
+width: 250px;
+height: 55px;
+left: 790px;
+top: 1032px;
+text-align: center;
+font-weight: bolder;
+background: #80BBF1;
+border-radius: 50px;
+}
+
+.Catcher {
+    position: absolute;
+width: 200px;
+height: 55px;
+left: 1375px;
+top: 1032px;
+text-align: center;
+background: #80BBF1;
+border-radius: 50px;
+font-weight: bolder;
+}
+
+li {
+    font-size: 18px;
+    text-align: left;
+    line-height: 150%;
+    font-weight: bold;
+
+}
+
+.list {
+    text-align: center;
 }
